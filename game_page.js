@@ -79,8 +79,8 @@ function check()
     document.getElementById("output").innerHTML = "";
 }
 function reset(){
-	player1_score = 0;
-	player2_score = 0;
+	player1_score = "";
+	player2_score = "";
 	document.getElementById("player1_score").innerHTML = player1_score;
 	document.getElementById("player2_score").innerHTML = player1_score;
 	localStorage.setItem("player1_score", player1_score);
